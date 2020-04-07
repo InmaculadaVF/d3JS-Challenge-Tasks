@@ -3,148 +3,137 @@ export interface DataEntry {
   value: number;
 }
 
-// Get data of:
-//https://www.abc.es/sociedad/abci-mapa-coronavirus-espana-evolucion-comunidades-202003251848_noticia.html
-
 export const InitialInfected_stats: DataEntry[] = [
   {
-    name: "Comunidad de Madrid",
-    value: 587
+    name: "Baden-Württemberg",
+    value: 524
   },
   {
-    name: "La Rioja",
-    value: 102
+    name: "Bayern",
+    value: 804
   },
   {
-    name: "Andalucía",
-    value: 54
+    name: "Berlin",
+    value: 265
   },
   {
-    name: "Cataluña",
-    value: 101
+    name: "Brandenburg",
+    value: 56
   },
   {
-    name: "Comunidad Valenciana",
-    value: 50
+    name: "Bremen",
+    value: 53
   },
   {
-    name: "Región de Murcia",
-    value: 5
+    name: "Hamburg",
+    value: 162
   },
   {
-    name: "Extremadura",
-    value: 7
+    name: "Hessen",
+    value: 207
   },
   {
-    name: "Castilla-La Mancha",
-    value: 26
+    name: "Mecklenburg-Vorpommern",
+    value: 33
   },
   {
-    name: "País Vasco",
-    value: 148
+    name: "Niedersachsen",
+    value: 238
   },
   {
-    name: "Cantabria",
-    value: 12
+    name: "Nordrhein-Westfalen",
+    value: 1407
   },
   {
-    name: "Asturias",
-    value: 10
+    name: "Rheinland-Pfalz",
+    value: 168
   },
   {
-    name: "Galicia",
-    value: 18
-  },
-  {
-    name: "Aragón",
+    name: "Saarland",
     value: 32
   },
   {
-    name: "Castilla y León",
+    name: "Sachsen",
+    value: 91
+  },
+  {
+    name: "Sachsen-Anhalt",
     value: 40
   },
   {
-    name: "Islas Canarias",
-    value: 24
+    name: "Schleswig-Holstein",
+    value: 79
   },
   {
-    name: "Islas Baleares",
-    value: 11
-  },
-  {
-    name: "Comunidad Foral de Navarra",
-    value: 13
+    name: "Thüringen",
+    value: 36
   }
 ];
 
 export const FinalInfected_stats: DataEntry[] = [
   {
-    name: "Comunidad de Madrid",
-    value: 27509
+    name: "Baden-Württemberg",
+    value: 20141
   },
   {
-    name: "La Rioja",
-    value: 1810
+    name: "Bayern",
+    value: 26163
   },
   {
-    name: "Andalucía",
-    value: 5818
+    name: "Berlin",
+    value: 3845
   },
   {
-    name: "Cataluña",
-    value: 18773
+    name: "Brandenburg",
+    value: 1384
   },
   {
-    name: "Comunidad Valenciana",
-    value: 5508
+    name: "Bremen",
+    value: 399
   },
   {
-    name: "Región de Murcia",
-    value: 974
+    name: "Hamburg",
+    value: 3059
   },
   {
-    name: "Extremadura",
-    value: 1628
+    name: "Hessen",
+    value: 4837
   },
   {
-    name: "Castilla-La Mancha",
-    value: 6424
+    name: "Mecklenburg-Vorpommern",
+    value: 531
   },
   {
-    name: "País Vasco",
-    value: 6320
+    name: "Niedersachsen",
+    value: 6200
   },
   {
-    name: "Cantabria",
-    value: 	1171
+    name: "Nordrhein-Westfalen",
+    value: 20220
   },
   {
-    name: "Asturias",
-    value: 1236
+    name: "Rheinland-Pfalz",
+    value: 3992
   },
   {
-    name: "Galicia",
-    value: 4039
+    name: "Saarland",
+    value: 1532
   },
   {
-    name: "Aragón",
-    value: 2272
+    name: "Sachsen",
+    value: 2997
   },
   {
-    name: "Castilla y León",
-    value: 6211
+    name: "Sachsen-Anhalt",
+    value: 987
   },
   {
-    name: "Islas Canarias",
-    value: 1262
+    name: "Schleswig-Holstein",
+    value: 1730
   },
   {
-    name: "Islas Baleares",
-    value: 	1069
-  },
-  {
-    name: "Comunidad Foral Navarra",
-    value: 2305
+    name: "Thüringen",
+    value: 1208
   }
 ];
 

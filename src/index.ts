@@ -34,11 +34,11 @@ const svg = d3
 
 const aProjection = d3
   .geoMercator()
-  .scale(20000000 )
-  .translate([-500,-200]);
+  .scale(2500)
+  .translate([-50, 3000]);
 
 const geoPath = d3.geoPath().projection(aProjection);
-const geojson = topojson.feature(germanyjson, germanyjson.objects.DEU_adm2);
+const geojson = topojson.feature(germanyjson, germanyjson.objects.layer);
 
 
 const changeMap = (data: DataEntry[]) =>{

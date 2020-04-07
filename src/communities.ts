@@ -12,8 +12,8 @@ export const latLongCommunities: DataEntry[] = [
   },
   {
     name: "Bayern",
-    long: 11.472806,
-    lat: 49.541499
+    long: 11.887899,
+    lat: 48.608079
   },
   {
     name: "Berlin",
@@ -52,8 +52,8 @@ export const latLongCommunities: DataEntry[] = [
   },
   {
     name: "Nordrhein-Westfalen",
-    long: 7.454724,
-    lat: 51.500758
+    long: 7.45,
+    lat: 51.51667
   },
   {
     name: "Rheinland-Pfalz",
