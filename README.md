@@ -13,7 +13,6 @@ This code is based on:
 https://github.com/Lemoncode/d3js-typescript-examples/tree/master/02-maps/02-pin-location-scale
 
 - InmaculadaVF
-
 https://github.com/InmaculadaVF/d3JS-Advanced-Tasks.git
 
 
@@ -39,7 +38,7 @@ npm start
 
 # Exercise
 
-- Firts chage Spain.json by Germany.json with all regions. Topojson get from https://github.com/deldersveld/topojson/blob
+- Firstly chage Spain.json by Germany.json with all regions. Topojson get from https://github.com/deldersveld/topojson/blob
 /master/countries/germany/dach-states.json
 
 _./src/Germany.json_
